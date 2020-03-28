@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import 'libs/vars';
 @import 'libs/functions';
 @import 'libs/mixins';
@@ -16,4 +17,24 @@
 			opacity: 1;
 			margin: (_size(element-margin) * 2) 0 0 0;
 		}
+=======
+@import 'libs/vars';
+@import 'libs/functions';
+@import 'libs/mixins';
+@import 'libs/skel';
+
+/*
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/* Main */
+
+	#main {
+		article {
+			opacity: 1;
+			margin: (_size(element-margin) * 2) 0 0 0;
+		}
+>>>>>>> 3808683884848b6fc0c89b94566f9a27cf151a1a
 	}
