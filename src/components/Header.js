@@ -10,10 +10,9 @@ const Header = props => (
       <div className="inner">
         <h1>Gabriel J. Shapiro</h1>
         <h2>Autonomous Attorney</h2>
-        <p>
-          California attorney conducting research and assisting clients in the execution and structuring of strategic
-          transactions, with a focus on avant garde technologies.
-        </p>
+        <h4>
+          M&A | venture | governance | crypto | infosec
+        </h4>
       </div>
     </div>
     <nav>
