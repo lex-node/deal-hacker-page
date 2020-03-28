@@ -8,21 +8,11 @@ const Header = props => (
     </div>
     <div className="content">
       <div className="inner">
-<<<<<<< HEAD
         <h1>Gabriel J. Shapiro</h1>
         <h2>Autonomous Attorney</h2>
         <p>
           California attorney conducting research and assisting clients in the execution and structuring of strategic
           transactions, with a focus on avant garde technologies.
-=======
-        <h1>Dimension</h1>
-        <p>
-          A fully responsive site template designed by{' '}
-          <a href="https://html5up.net">HTML5 UP</a> and released
-          <br />
-          for free under the{' '}
-          <a href="https://html5up.net/license">Creative Commons</a> license.
->>>>>>> 3808683884848b6fc0c89b94566f9a27cf151a1a
         </p>
       </div>
     </div>
