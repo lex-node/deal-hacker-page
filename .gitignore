@@ -2,10 +2,8 @@
 .cache
 node_modules
 yarn-error.log
-<<<<<<< HEAD
 .idea
-=======
->>>>>>> 3808683884848b6fc0c89b94566f9a27cf151a1a
+
 
 # Build directory
 /public

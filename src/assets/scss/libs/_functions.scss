@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /// Gets a duration value.
 /// @param {string} $keys Key(s).
 /// @return {string} Value.
@@ -32,7 +31,7 @@
 /// @return {string} Value.
 @function _size($keys...) {
 	@return val($size, $keys...);
-=======
+}
 /// Gets a duration value.
 /// @param {string} $keys Key(s).
 /// @return {string} Value.
@@ -66,5 +65,4 @@
 /// @return {string} Value.
 @function _size($keys...) {
 	@return val($size, $keys...);
->>>>>>> 3808683884848b6fc0c89b94566f9a27cf151a1a
 }
