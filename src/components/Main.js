@@ -35,14 +35,15 @@ class Main extends React.Component {
           <p>
             Gabriel Shapiro is a U.S. attorney with over a decade of experience in the structuring, negotiation and
             execution of strategic transactions for blue-chip technology clients.
-            He represents and advise clients in connection with: </p>
+            He represents and advises clients in connection with: </p>
           <ul style={{ marginLeft: 30 }}>
             <li>mergers, acquisitions & joint ventures</li>
-            <li>governance design & crisis management</li>
+            <li>governance design & issues</li>
             <li>venture financings & crowdsales (SAFTs, stock, tokens)</li>
             <li>securities law compliance (private & public)</li>
-            <li>product design & compliance for dissident technologies</li>
+            <li>product design & compliance for peer-to-peer technologies</li>
           </ul>
+          <p>Prior to launching his own practice, Gabriel practiced for seven years in the tech M&A groups of top Wall St. firms Dewey & LeBoeuf, Weil, Gotshal & Manges and Hogan Lovells.</p>
           <p>Follow the links on the main page for more on Gabriel's experience and thought leadership, as well as links
             to interesting general resources on his areas of expertise.</p>
           {close}
@@ -62,27 +63,36 @@ class Main extends React.Component {
           <p>
           </p>
           <p>
-            Autonomous law combines traditional legal structures, peer-to-peer technologies and incentive-based thinking to help businesses, creators and entrepreneurs self-organize, transact and unlock synergies in powerful ways.
+            Autonomous law combines traditional legal structures, peer-to-peer technologies and incentive-based thinking
+            to help businesses, creators and entrepreneurs self-organize, transact and unlock synergies in powerful
+            ways.
+            <br/>
+            <br/>
+            Check out Gabriel's <a href="https://lex-node.github.io/sustain/projects.html">autonomous law research</a>,
+            including articles, lectures and interviews on topics such as blockchain / cryptocurrency, DAOs and
+            tokenized securities.
+            <br/>
+            <br/>
+            Feel free to use Gabriel's <a href="https://lex-node.github.io/sustain/cryptolaw-resources.html">personal
+            collection of autonomous law resources</a>, including helpful summaries and annotations of important
+            third-party works.
           </p>
           {close}
         </article>
 
         <article
-          id="research"
+          id="engagements"
           className={`${this.props.article === 'about' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
             }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Research</h2>
+          <h2 className="major">Engagements</h2>
           <span className="image main">
             <img src={research} alt=""/>
           </span>
           <p>
-            Check out Gabriel's <a href="">autonomous law research</a>, including articles, lectures and interviews on topics such as blockchain / cryptocurrency, DAOs and tokenized securities.
-            <br/>
-            <br/>
-            Feel free to use Gabriel's <a href="">personal collection of autonomous law resources</a>, including helpful summaries and annotations of important third-party works.
+
           </p>
           {close}
         </article>
@@ -120,28 +130,26 @@ class Main extends React.Component {
           <ul className="icons">
             <li>
               <a
-                href="https://twitter.com/HuntaroSan"
+                href="https://twitter.com/lex_node"
                 className="icon fa-twitter"
               >
                 <span className="label">Twitter</span>
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-facebook">
-                <span className="label">Facebook</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://codebushi.com" className="icon fa-instagram">
-                <span className="label">Instagram</span>
+              <a
+                href="https://github.com/lex-node"
+                className="icon fa-github"
+              >
+                <span className="label">GitHub</span>
               </a>
             </li>
             <li>
               <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
-                className="icon fa-github"
+                href="https://www.linkedin.com/in/gabriel-shapiro-29616651"
+                className="icon fa-linkedin"
               >
-                <span className="label">GitHub</span>
+                <span className="label">LinkedIn</span>
               </a>
             </li>
           </ul>

@@ -41,7 +41,7 @@ const Header = props => (
               props.onOpenArticle('about')
             }}
           >
-            Research
+            Engagements
           </button>
         </li>
         <li>
