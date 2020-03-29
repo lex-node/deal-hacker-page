@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import bioPic from '../images/bioPic.png'
-import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
+import autonomousLaw from '../images/autonomousLaw2.jpg'
+import research from '../images/research.jpg'
 
 class Main extends React.Component {
   render() {
@@ -22,13 +22,13 @@ class Main extends React.Component {
         style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}
       >
         <article
-          id="intro"
+          id="Gabriel"
           className={`${this.props.article === 'intro' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
             }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Intro</h2>
+          <h2 className="major">Gabriel</h2>
           <span className="image main">
             <img src={bioPic} alt=""/>
           </span>
@@ -36,12 +36,12 @@ class Main extends React.Component {
             Gabriel Shapiro is a U.S. attorney with over a decade of experience in the structuring, negotiation and
             execution of strategic transactions for blue-chip technology clients.
             He represents and advise clients in connection with: </p>
-          <ul style={{ marginLeft: 100 }}>
-            <li><p>mergers, acquisitions & joint ventures</p></li>
-            <li><p>governance design & crisis management</p></li>
-            <li><p>venture financings & product crowdsales (SAFTs, stock, tokens - private & public)</p></li>
-            <li><p>securities law compliance</p></li>
-            <li><p>product design & compliance for dissident technologies (blockchain, DeFi, crypto, infosec)</p></li>
+          <ul style={{ marginLeft: 30 }}>
+            <li>mergers, acquisitions & joint ventures</li>
+            <li>governance design & crisis management</li>
+            <li>venture financings & crowdsales (SAFTs, stock, tokens)</li>
+            <li>securities law compliance (private & public)</li>
+            <li>product design & compliance for dissident technologies</li>
           </ul>
           <p>Follow the links on the main page for more on Gabriel's experience and thought leadership, as well as links
             to interesting general resources on his areas of expertise.</p>
@@ -49,53 +49,40 @@ class Main extends React.Component {
         </article>
 
         <article
-          id="work"
+          id="autonomousLaw"
           className={`${this.props.article === 'work' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
             }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
+          <h2 className="major">Autonomous Law</h2>
           <span className="image main">
-            <img src={pic02} alt=""/>
+            <img src={autonomousLaw} alt=""/>
           </span>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
           </p>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+            Autonomous law combines traditional legal structures, peer-to-peer technologies and incentive-based thinking to help businesses, creators and entrepreneurs self-organize, transact and unlock synergies in powerful ways.
           </p>
           {close}
         </article>
 
         <article
-          id="about"
+          id="research"
           className={`${this.props.article === 'about' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
             }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About</h2>
+          <h2 className="major">Research</h2>
           <span className="image main">
-            <img src={pic03} alt=""/>
+            <img src={research} alt=""/>
           </span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+            Check out Gabriel's <a href="">autonomous law research</a>, including articles, lectures and interviews on topics such as blockchain / cryptocurrency, DAOs and tokenized securities.
+            <br/>
+            <br/>
+            Feel free to use Gabriel's <a href="">personal collection of autonomous law resources</a>, including helpful summaries and annotations of important third-party works.
           </p>
           {close}
         </article>
