@@ -47,7 +47,7 @@
       display: block;
       position: absolute;
       top: calc(-3.5rem - 1px);
-      left: calc(50% - #{_size(border-width) * 1});
+      left: calc(52.8% - #{_size(border-width) * 1});
       width: _size(border-width);
       height: calc(3.5rem + 1px);
       background: _palette(border);
@@ -63,6 +63,7 @@
   }
 
   .logo {
+    left: 15px;
     width: 5.5rem;
     height: 5.5rem;
     line-height: 5.5rem;
@@ -158,7 +159,7 @@
         display: block;
         position: absolute;
         top: 0;
-        left: calc(50% - #{_size(border-width) * 1});
+        left: calc(52.8% - #{_size(border-width) * 1});
         width: _size(border-width);
         height: 100%;
         background: _palette(border);
@@ -218,6 +219,7 @@
     }
 
     .logo {
+      left: 10px;
       width: 4.75rem;
       height: 4.75rem;
       line-height: 4.75rem;
@@ -329,7 +331,7 @@
       display: block;
       position: absolute;
       top: calc(-3.5rem - 1px);
-      left: calc(50% - #{_size(border-width) * 1});
+      left: calc(52.8% - #{_size(border-width) * 1});
       width: _size(border-width);
       height: calc(3.5rem + 1px);
       background: _palette(border);
@@ -440,7 +442,7 @@
         display: block;
         position: absolute;
         top: 0;
-        left: calc(50% - #{_size(border-width) * 1});
+        left: calc(52.8% - #{_size(border-width) * 1});
         width: _size(border-width);
         height: 100%;
         background: _palette(border);

@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import bioPic from '../images/bioPic.png'
 import autonomousLaw from '../images/autonomousLaw2.jpg'
-import research from '../images/research.jpg';
+import engagements from '../images/research.jpg';
 import emailjs from 'emailjs-com';
 
 class Main extends React.Component {
@@ -101,7 +101,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Engagements</h2>
           <span className="image main">
-            <img src={research} alt=""/>
+            <img src={engagements} alt=""/>
           </span>
           <p>
 
