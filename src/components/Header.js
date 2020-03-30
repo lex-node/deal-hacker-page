@@ -20,7 +20,7 @@ const Header = props => (
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('intro')
+              props.onOpenArticle('gabriel')
             }}
           >
             Gabriel
@@ -29,7 +29,7 @@ const Header = props => (
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('work')
+              props.onOpenArticle('autonomousLaw')
             }}
           >
             Autonomous Law
@@ -38,7 +38,7 @@ const Header = props => (
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('about')
+              props.onOpenArticle('engagements')
             }}
           >
             Engagements

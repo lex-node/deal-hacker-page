@@ -2,7 +2,8 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import bioPic from '../images/bioPic.png'
 import autonomousLaw from '../images/autonomousLaw2.jpg'
-import research from '../images/research.jpg'
+import research from '../images/research.jpg';
+import emailjs from 'emailjs-com';
 
 class Main extends React.Component {
   render() {
@@ -15,6 +16,17 @@ class Main extends React.Component {
       ></div>
     )
 
+    function sendEmail(e) {
+      e.preventDefault();
+
+      emailjs.sendForm("zerolaw_gmail", "template_jrsZHQns", e.target, "user_makHupFgaYsIMcKRUCl7v")
+        .then((result) => {
+          console.log(result.text);
+        }, (error) => {
+          console.log(error.text);
+        });
+    }
+
     return (
       <div
         ref={this.props.setWrapperRef}
@@ -22,8 +34,8 @@ class Main extends React.Component {
         style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}
       >
         <article
-          id="Gabriel"
-          className={`${this.props.article === 'intro' ? 'active' : ''} ${
+          id="gabriel"
+          className={`${this.props.article === 'gabriel' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
             }`}
           style={{ display: 'none' }}
@@ -51,7 +63,7 @@ class Main extends React.Component {
 
         <article
           id="autonomousLaw"
-          className={`${this.props.article === 'work' ? 'active' : ''} ${
+          className={`${this.props.article === 'autonomousLaw' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
             }`}
           style={{ display: 'none' }}
@@ -82,7 +94,7 @@ class Main extends React.Component {
 
         <article
           id="engagements"
-          className={`${this.props.article === 'about' ? 'active' : ''} ${
+          className={`${this.props.article === 'engagements' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
             }`}
           style={{ display: 'none' }}
@@ -105,14 +117,14 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form method="post" action="#">
+          <form method="post" action="#" onSubmit={sendEmail}>
             <div className="field half first">
               <label htmlFor="name">Name</label>
-              <input type="text" name="name" id="name"/>
+              <input type="text" name="user_name" id="name"/>
             </div>
             <div className="field half">
               <label htmlFor="email">Email</label>
-              <input type="text" name="email" id="email"/>
+              <input type="text" name="user_email" id="email"/>
             </div>
             <div className="field">
               <label htmlFor="message">Message</label>
@@ -120,7 +132,7 @@ class Main extends React.Component {
             </div>
             <ul className="actions">
               <li>
-                <input type="submit" value="Send Message" className="special"/>
+                <input type="submit" value="Send" className="special"/>
               </li>
               <li>
                 <input type="reset" value="Reset"/>

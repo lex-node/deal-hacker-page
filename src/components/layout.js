@@ -46,6 +46,7 @@ const Layout = ({ children, location }) => {
             ]}
           >
             <html lang="en" />
+
           </Helmet>
           {content}
         </>
@@ -59,3 +60,4 @@ Layout.propTypes = {
 }
 
 export default Layout
+
