@@ -63,7 +63,7 @@
   }
 
   .logo {
-    left: 15px;
+    left: 17px;
     width: 5.5rem;
     height: 5.5rem;
     line-height: 5.5rem;
@@ -198,6 +198,11 @@
     }
   }
 
+  @include breakpoint(xlarge){
+    .logo{
+      left: 13px;
+    }
+  }
   @include breakpoint(medium) {
     .content {
       p {
@@ -219,7 +224,7 @@
     }
 
     .logo {
-      left: 10px;
+      left: 12px;
       width: 4.75rem;
       height: 4.75rem;
       line-height: 4.75rem;
@@ -244,7 +249,9 @@
 
   @include breakpoint(xsmall) {
     padding: 1.5rem 0;
-
+    .logo {
+      left: 10px;
+    }
     .content {
       .inner {
         padding: 2.5rem 0;
@@ -281,6 +288,13 @@
       }
     }
   }
+
+   @include breakpoint(xxsmall) {
+
+     .logo {
+       left: 9px;
+     }
+   }
 }
 ///
 /// Dimension by HTML5 UP
