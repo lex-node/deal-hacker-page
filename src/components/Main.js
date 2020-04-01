@@ -79,19 +79,17 @@ class Main extends React.Component {
           <span className="image main">
             <img src={bioPic} alt=""/>
           </span>
-          <p>
-            Gabriel Shapiro is a U.S. attorney with over a decade of experience in the structuring, negotiation and
+          <p>Gabriel Shapiro is a U.S. attorney with over a decade of experience in the structuring, negotiation and
             execution of strategic transactions for technology clients.
             He represents and advises clients in connection with: </p>
-          <ul style={{ marginLeft: 30 }}>
+          <ul style={{ marginLeft: 20 }}>
             <li>mergers, acquisitions & joint ventures</li>
             <li>governance design & issues</li>
             <li>venture financings & crowdsales (SAFTs, stock, tokens)</li>
             <li>securities law compliance (private & public)</li>
             <li>product design & compliance for peer-to-peer technologies</li>
           </ul>
-          <p>Prior to launching his own practice, Gabriel practiced for eight years in the tech M&A groups of Wall
-            St.-headquartered firms Dewey & LeBoeuf, Weil, Gotshal & Manges and Hogan Lovells.</p>
+          <p>Prior to launching his own practice, Gabriel practiced for many years in the tech M&A groups of top corporate law firms Dewey & LeBoeuf, Weil, Gotshal & Manges and Hogan Lovells.</p>
           {close}
         </article>
 
