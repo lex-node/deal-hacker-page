@@ -1,9 +1,15 @@
-import PropTypes from 'prop-types'
+//general react imports
 import React from 'react'
+import PropTypes from 'prop-types'
+
+//images to head articles
 import bioPic from '../images/bioPic.png'
 import autonomousLaw from '../images/autonomousLaw2.jpg'
-import engagements from '../images/research.jpg';
-import emailjs from 'emailjs-com';
+
+//logo carousel component
+import Carousel from 'react-images';
+
+//client logos
 import zerox from '../images/client-logos/0x.jpg'
 import abridged from '../images/client-logos/abridged.png'
 import adobe from '../images/client-logos/adobe.png'
@@ -27,6 +33,12 @@ import sila from '../images/client-logos/sila.png'
 import spankchain from '../images/client-logos/spankchain.png'
 import TCV from '../images/client-logos/TCV.png'
 import twilio from '../images/client-logos/twilio.png'
+
+//emailjs to handle sending of emails on submission of contact form
+import emailjs from 'emailjs-com';
+
+
+const images = [{ src: zerox }, { src: abridged }, { src: adobe}, { src: applied_materials},{ src: chorus},{ src: consensys},{ src: dell},{ src: ebay },{ src: facebook}, { src: flipboard }, { src: gilead },{ src: grid},{ src:  lawcoin}, { src: metacartel},{ src: metafactory},{ src: opera},{ src: opera},{ src: oracle},{ src: riverbed},{ src: samsung},{ src: sila},{ src: spankchain},{ src: TCV},{ src: twilio},];
 
 class Main extends React.Component {
   render() {
@@ -124,7 +136,8 @@ class Main extends React.Component {
         >
           <h2 className="major">Engagements</h2>
           <span className="image main">
-            <img src={engagements} alt=""/>
+            <Carousel views={images}/>
+{/*            <img src={engagements} alt=""/>
             <img src={zerox} alt=""/>
             <img src={abridged} alt=""/>
             <img src={adobe} alt=""/>
@@ -147,11 +160,8 @@ class Main extends React.Component {
             <img src={sila} alt=""/>
             <img src={spankchain} alt=""/>
             <img src={TCV} alt=""/>
-            <img src={twilio} alt=""/>
+            <img src={twilio} alt=""/>*/}
           </span>
-          <p>
-
-          </p>
           {close}
         </article>
 
