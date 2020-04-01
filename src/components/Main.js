@@ -4,41 +4,41 @@ import PropTypes from 'prop-types'
 
 //images to head articles
 import bioPic from '../images/bioPic.png'
-import autonomousLaw from '../images/autonomousLaw2.jpg'
+import autonomousLaw from '../images/deal-hacker2.jpg'
 
 //logo carousel component
-import Carousel from 'react-images';
+import Carousel from 'react-images'
 
 //client logos
-import zerox from '../images/client-logos/0x.jpg'
-import abridged from '../images/client-logos/abridged.png'
+import zerox from '../images/client-logos/0x.png'
+import abridged from '../images/client-logos/abridged.jpg'
 import adobe from '../images/client-logos/adobe.png'
-import applied_materials from '../images/client-logos/applied_materials.jpeg'
-import chorus from '../images/client-logos/chorus.png'
-import consensys from '../images/client-logos/consensys.png'
-import dell from '../images/client-logos/dell.jpeg'
-import ebay from '../images/client-logos/ebay.jpeg'
-import facebook from '../images/client-logos/facebook.jpg'
-import flipboard from '../images/client-logos/flipboard.png'
-import gilead from '../images/client-logos/gilead.png'
+import applied_materials from '../images/client-logos/applied_materials.png'
+import chorus from '../images/client-logos/chorus.jpg'
+import consensys from '../images/client-logos/consensys.jpg'
+import dell from '../images/client-logos/dell.png'
+import ebay from '../images/client-logos/ebay.jpg'
+import facebook from '../images/client-logos/facebook.png'
+import flipboard from '../images/client-logos/flipboard.jpg'
+import gilead from '../images/client-logos/gilead.jpg'
 import grid from '../images/client-logos/Grid+.jpg'
-import lawcoin from '../images/client-logos/lawcoin.png'
-import metacartel from '../images/client-logos/metacartel.jpeg'
+import lawcoin from '../images/client-logos/lawcoin.jpg'
+import metacartel from '../images/client-logos/metacartel.jpg'
 import metafactory from '../images/client-logos/metafactory.jpg'
-import opera from '../images/client-logos/opera.jpeg'
-import oracle from '../images/client-logos/oracle.png'
-import riverbed from '../images/client-logos/riverbed.png'
-import samsung from '../images/client-logos/samsung.png'
+import opera from '../images/client-logos/opera.png'
+import oracle from '../images/client-logos/oracle.jpg'
+import riverbed from '../images/client-logos/riverbed.jpg'
+import samsung from '../images/client-logos/samsung.jpg'
 import sila from '../images/client-logos/sila.png'
-import spankchain from '../images/client-logos/spankchain.png'
-import TCV from '../images/client-logos/TCV.png'
+import spankchain from '../images/client-logos/spankchain.jpg'
+import TCV from '../images/client-logos/TCV.jpg'
 import twilio from '../images/client-logos/twilio.png'
 
 //emailjs to handle sending of emails on submission of contact form
-import emailjs from 'emailjs-com';
+import emailjs from 'emailjs-com'
 
 
-const images = [{ src: zerox }, { src: abridged }, { src: adobe}, { src: applied_materials},{ src: chorus},{ src: consensys},{ src: dell},{ src: ebay },{ src: facebook}, { src: flipboard }, { src: gilead },{ src: grid},{ src:  lawcoin}, { src: metacartel},{ src: metafactory},{ src: opera},{ src: opera},{ src: oracle},{ src: riverbed},{ src: samsung},{ src: sila},{ src: spankchain},{ src: TCV},{ src: twilio},];
+const images = [{ src: zerox }, { src: abridged }, { src: adobe }, { src: applied_materials }, { src: chorus }, { src: consensys }, { src: dell }, { src: ebay }, { src: facebook }, { src: flipboard }, { src: gilead }, { src: grid }, { src: lawcoin }, { src: metacartel }, { src: metafactory }, { src: opera }, { src: oracle }, { src: riverbed }, { src: samsung }, { src: sila }, { src: spankchain }, { src: TCV }, { src: twilio }]
 
 class Main extends React.Component {
   render() {
@@ -52,14 +52,14 @@ class Main extends React.Component {
     )
 
     function sendEmail(e) {
-      e.preventDefault();
+      e.preventDefault()
 
-      emailjs.sendForm("zerolaw_gmail", "template_jrsZHQns", e.target, "user_makHupFgaYsIMcKRUCl7v")
+      emailjs.sendForm('zerolaw_gmail', 'template_jrsZHQns', e.target, 'user_makHupFgaYsIMcKRUCl7v')
         .then((result) => {
-          console.log(result.text);
+          console.log(result.text)
         }, (error) => {
-          console.log(error.text);
-        });
+          console.log(error.text)
+        })
     }
 
     return (
@@ -81,7 +81,7 @@ class Main extends React.Component {
           </span>
           <p>
             Gabriel Shapiro is a U.S. attorney with over a decade of experience in the structuring, negotiation and
-            execution of strategic transactions for blue-chip technology clients.
+            execution of strategic transactions for technology clients.
             He represents and advises clients in connection with: </p>
           <ul style={{ marginLeft: 30 }}>
             <li>mergers, acquisitions & joint ventures</li>
@@ -90,9 +90,8 @@ class Main extends React.Component {
             <li>securities law compliance (private & public)</li>
             <li>product design & compliance for peer-to-peer technologies</li>
           </ul>
-          <p>Prior to launching his own practice, Gabriel practiced for seven years in the tech M&A groups of top Wall St. firms Dewey & LeBoeuf, Weil, Gotshal & Manges and Hogan Lovells.</p>
-          <p>Follow the links on the main page for more on Gabriel's experience and thought leadership, as well as links
-            to interesting general resources on his areas of expertise.</p>
+          <p>Prior to launching his own practice, Gabriel practiced for eight years in the tech M&A groups of Wall
+            St.-headquartered firms Dewey & LeBoeuf, Weil, Gotshal & Manges and Hogan Lovells.</p>
           {close}
         </article>
 
@@ -115,14 +114,10 @@ class Main extends React.Component {
             ways.
             <br/>
             <br/>
-            Check out Gabriel's <a href="https://lex-node.github.io/sustain/projects.html">autonomous law research</a>,
-            including articles, lectures and interviews on topics such as blockchain / cryptocurrency, DAOs and
+            Check out Gabriel's <a href="https://lex-node.github.io/sustain/projects.html">autonomous law
+            research</a> and <a href="https://lex-node.github.io/sustain/cryptolaw-resources.html">autonomous law
+            resources</a>, which include articles, lectures and interviews on topics such as blockchain / cryptocurrency, DAOs and
             tokenized securities.
-            <br/>
-            <br/>
-            Feel free to use Gabriel's <a href="https://lex-node.github.io/sustain/cryptolaw-resources.html">personal
-            collection of autonomous law resources</a>, including helpful summaries and annotations of important
-            third-party works.
           </p>
           {close}
         </article>
@@ -136,31 +131,8 @@ class Main extends React.Component {
         >
           <h2 className="major">Engagements</h2>
           <span className="image main">
+            <p>Gabriel has been privileged to represent and advise some of the most innovative technology clients in their strategic transactions.</p>
             <Carousel views={images}/>
-{/*            <img src={engagements} alt=""/>
-            <img src={zerox} alt=""/>
-            <img src={abridged} alt=""/>
-            <img src={adobe} alt=""/>
-            <img src={applied_materials} alt=""/>
-            <img src={chorus} alt=""/>
-            <img src={consensys} alt=""/>
-            <img src={dell} alt=""/>
-            <img src={ebay} alt=""/>
-            <img src={facebook} alt=""/>
-            <img src={flipboard} alt=""/>
-            <img src={gilead} alt=""/>
-            <img src={grid} alt=""/>
-            <img src={lawcoin} alt=""/>
-            <img src={metacartel} alt=""/>
-            <img src={metafactory} alt=""/>
-            <img src={opera} alt=""/>
-            <img src={oracle} alt=""/>
-            <img src={riverbed} alt=""/>
-            <img src={samsung} alt=""/>
-            <img src={sila} alt=""/>
-            <img src={spankchain} alt=""/>
-            <img src={TCV} alt=""/>
-            <img src={twilio} alt=""/>*/}
           </span>
           {close}
         </article>
