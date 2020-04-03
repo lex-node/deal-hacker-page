@@ -89,7 +89,7 @@ class Main extends React.Component {
             <li>securities law compliance (private & public)</li>
             <li>product design & compliance for peer-to-peer technologies</li>
           </ul>
-          <p>Prior to launching his own practice, Gabriel practiced for many years in the tech M&A groups of top corporate law firms Dewey & LeBoeuf, Weil, Gotshal & Manges and Hogan Lovells.</p>
+          <p>Gabriel is a partner at <a href="https://www.bsvlaw.com/">BSV Law</a>. Prior to launching his own practice, Gabriel practiced for many years in the tech M&A groups of top corporate law firms Dewey & LeBoeuf, Weil, Gotshal & Manges and Hogan Lovells.</p>
           {close}
         </article>
 
