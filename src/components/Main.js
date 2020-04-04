@@ -44,7 +44,8 @@ class Main extends React.Component {
   render() {
     let close = (
       <div
-        role="div"
+        tabIndex={0}
+        role="button"
         className="close"
         onClick={() => {
           this.props.onCloseArticle()
