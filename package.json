@@ -10,8 +10,6 @@
     "gatsby-plugin-manifest": "^2.2.38",
     "gatsby-plugin-react-helmet": "^3.1.21",
     "gatsby-plugin-sass": "^2.1.27",
-    "gatsby-plugin-sharp": "^2.5.3",
-    "gatsby-transformer-sharp": "^2.4.3",
     "imagemin": "^7.0.1",
     "imagemin-jpegtran": "^6.0.0",
     "node-sass": "^4.13.1",
