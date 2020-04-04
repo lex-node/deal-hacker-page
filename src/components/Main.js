@@ -3,8 +3,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 //images to head articles
-import bioPic from '../images/bioPic.png'
-import autonomousLaw from '../images/deal-hacker2.jpg'
+import bioPic from '../images/bioPic.webp'
+import autonomousLaw from '../images/deal-hacker2.webp'
 
 //logo carousel component
 import Carousel from 'react-images'
@@ -16,20 +16,20 @@ import adobe from '../images/client-logos/adobe.png'
 import applied_materials from '../images/client-logos/applied_materials.png'
 import chorus from '../images/client-logos/chorus.jpg'
 import consensys from '../images/client-logos/consensys.jpg'
-import dell from '../images/client-logos/dell.png'
+import dell from '../images/client-logos/dell.webp'
 import ebay from '../images/client-logos/ebay.jpg'
-import facebook from '../images/client-logos/facebook.png'
+import facebook from '../images/client-logos/facebook.webp'
 import flipboard from '../images/client-logos/flipboard.jpg'
 import gilead from '../images/client-logos/gilead.jpg'
 import grid from '../images/client-logos/Grid+.jpg'
 import lawcoin from '../images/client-logos/lawcoin.jpg'
 import metacartel from '../images/client-logos/metacartel.jpg'
-import metafactory from '../images/client-logos/metafactory.jpg'
-import opera from '../images/client-logos/opera.png'
+import metafactory from '../images/client-logos/metafactory.webp'
+import opera from '../images/client-logos/opera.webp'
 import oracle from '../images/client-logos/oracle.jpg'
 import riverbed from '../images/client-logos/riverbed.jpg'
 import samsung from '../images/client-logos/samsung.jpg'
-import sila from '../images/client-logos/sila.png'
+import sila from '../images/client-logos/sila.webp'
 import spankchain from '../images/client-logos/spankchain.jpg'
 import TCV from '../images/client-logos/TCV.jpg'
 import twilio from '../images/client-logos/twilio.png'
@@ -56,9 +56,10 @@ class Main extends React.Component {
     function sendEmail(e) {
       e.preventDefault()
 
-      emailjs.sendForm('zerolaw_gmail', 'template_jrsZHQns', e.target, 'user_makHupFgaYsIMcKRUCl7v')
+      emailjs.sendForm('default_service', 'template_jrsZHQns', e.target, 'user_makHupFgaYsIMcKRUCl7v')
         .then((result) => {
           console.log(result.text)
+          alert('You have successfully submitted your message.')
         }, (error) => {
           console.log(error.text)
         })
