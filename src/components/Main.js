@@ -44,10 +44,11 @@ class Main extends React.Component {
   render() {
     let close = (
       <div
+        role="div"
         className="close"
         onClick={() => {
           this.props.onCloseArticle()
-        }}
+        }} onKeyDown={() => {this.props.onCloseArticle()}}
       ></div>
     )
 
