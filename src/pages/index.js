@@ -1,6 +1,12 @@
+/***************
+ LIBRARIES
+ ***************/
 import React from 'react'
-import Layout from '../components/layout'
 
+/***************
+ COMPONENTS
+ ***************/
+import Layout from '../components/layout'
 import Header from '../components/Header'
 import Main from '../components/Main'
 import Footer from '../components/Footer'
@@ -23,14 +29,14 @@ class IndexPage extends React.Component {
 
   componentDidMount () {
     this.timeoutId = setTimeout(() => {
-        this.setState({loading: ''});
+      this.setState({loading: ''});
     }, 100);
     document.addEventListener('mousedown', this.handleClickOutside);
   }
 
   componentWillUnmount () {
     if (this.timeoutId) {
-        clearTimeout(this.timeoutId);
+      clearTimeout(this.timeoutId);
     }
     document.removeEventListener('mousedown', this.handleClickOutside);
   }
