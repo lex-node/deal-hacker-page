@@ -6,8 +6,8 @@ const Research = () => {
   return (
     <Layout>
       <Link to="/">Go back to the homepage</Link>
-      <h1 className="major" style={{ color: `#1ec503`, margin: `20px` }}>Autonomous Law Research</h1>
-      <p style={{ margin: `30px`, color: `` }}>For years, I have worked to build a kind of groundwork for autonomous law
+      <h1 className="major" style={{ color: `#1ec503`, margin: `2%` }}>Autonomous Law Research</h1>
+      <p style={{ margin: `4%`, color: `` }}>For years, I have worked to build a kind of groundwork for autonomous law
         research. The below articles,
         presentations and legal forms projects set forth these ideas:</p>
 
@@ -15,19 +15,19 @@ const Research = () => {
         borderColor: `#ff2a6d`,
         borderStyle: `solid`,
         borderWidth: `1px`,
-        margin: `40px`,
-        marginRight: `150px`,
-        padding: `10px`,
+        margin: `5%`,
+        marginRight: `15%`,
+        padding: `2%`,
       }}>
-        <h3 style={{ color: `#1ec503`, marginBottom: `5px` }}>Blockchain Tokens as Shares of Network Equity</h3>
-        <p style={{ marginLeft: `10px`, marginTop: `5px`, marginBottom: '5px' }}>Blockchain network tokens are not
+        <h3 style={{ color: `#1ec503`, marginBottom: `1%` }}>Blockchain Tokens as Shares of Network Equity</h3>
+        <p style={{ marginLeft: `10px`, marginTop: `1%`, marginBottom: '1%' }}>Blockchain network tokens are not
           primarily products, software licenses or currencies
           (though they may secondarily have such functions). They are shares of 'network equity.' Securities laws may
           apply to them until the ecosystem has become sufficiently
           decentralized. Sufficient decentralization occurs when the tokens no longer represent
           investment contracts and no single party or group of affiliated parties controls
           the network equity or means of block production on the network</p>
-        <ul style={{ marginLeft: `40px`, marginBottom: `5px` }}>
+        <ul style={{ marginLeft: `5%`, marginBottom: `1%` }}>
           <li style={{ color: `#a0ffe3` }}><a
             href="https://medium.com/@lex_node/defining-decentralization-for-law-58ca54e18b2a">
             Defining Decentralization for Law</a></li>
