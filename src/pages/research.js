@@ -33,6 +33,9 @@ const Research = () => {
               the network equity or means of block production on the network</p>
             <ul style={{ marginLeft: `5%`, marginBottom: `1%` }}>
               <li style={{ color: `#a0ffe3` }}><a
+                href="https://medium.com/@lex_node/sec-v-telegram-three-deeper-takeaways-423b197f76d6">
+                SEC v. Telegram - Three Deeper Takeaways</a></li>
+              <li style={{ color: `#a0ffe3` }}><a
                 href="https://medium.com/@lex_node/defining-decentralization-for-law-58ca54e18b2a">
                 Defining Decentralization for Law</a></li>
               <li style={{ color: `#a0ffe3` }}><a
@@ -111,6 +114,9 @@ const Research = () => {
               will enable parties to agree to abide by the results of smart contracts except in unusual
               circumstances</p>
             <ul style={{ marginLeft: `5%`, marginBottom: `1%` }}>
+              <li style={{ color: `#a0ffe3` }}><a
+                href="https://github.com/metacartel/MCV/blob/master/Legal/Grimoire%20and%20Exhibits/MCV-Grimoire-Final-All-Exhihbits.pdf">MetaCartel
+                Ventures Grimoire (Delaware LLC Wrapper for MCV DAO)</a></li>
               <li style={{ color: `#a0ffe3` }}><a
                 href="https://github.com/metacartel/MCV/blob/master/MCV-Whitepaper.md">MetaCartel
                 Ventures Whitepaper</a></li>
