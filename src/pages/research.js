@@ -11,18 +11,19 @@ const Research = () => {
         <div id="wrapper">
           <Link to="/">Go back to the homepage</Link>
           <h1 className="major" style={{ color: `#1ec503`, margin: `2%` }}>Autonomous Law Research</h1>
-          <p style={{ margin: `4%`, color: `` }}>My autonomous law research focuses on the intersection of peer-to-peer
+          <p style={{ margin: `1%`, color: `` }}>My autonomous law research focuses on the intersection of peer-to-peer
             decentralization technologies and U.S. corporate, securities and contract law.</p>
           <div style={{
             borderColor: `#ff2a6d`,
             borderStyle: `solid`,
             borderWidth: `1px`,
-            margin: `5%`,
-            marginRight: `15%`,
+            margin: `1%`,
+            /*marginRight: `15%`,*/
             padding: `2%`,
+            minWidth: `100%`,
           }}>
             <h3 style={{ color: `#1ec503`, marginBottom: `1%` }}>Blockchain Tokens as Shares of Network Equity</h3>
-            <p style={{ marginLeft: `10px`, marginTop: `1%`, marginBottom: '1%' }}>Blockchain network tokens are not
+            <p style={{ marginLeft: `5%`, marginTop: `1%`, marginBottom: '1%' }}>Blockchain network tokens are not
               primarily products, software licenses or currencies
               (though they may secondarily have such functions). They are shares of 'network equity.' Securities laws
               may
@@ -69,15 +70,16 @@ const Research = () => {
             borderColor: `#ff2a6d`,
             borderStyle: `solid`,
             borderWidth: `1px`,
-            margin: `40px`,
-            marginRight: `150px`,
-            padding: `10px`,
+            margin: `1%`,
+            /*marginRight: `15%`,*/
+            padding: `2%`,
+            minWidth: `100%`,
           }}>
-            <h3 style={{ color: `#1ec503`, marginBottom: `5px` }}>Tokens as Securities Certificates</h3>
-            <p style={{ marginLeft: `10px`, marginTop: `5px`, marginBottom: '5px' }}>Tokens on public, permissionless
+            <h3 style={{ color: `#1ec503`, marginBottom: `1%` }}>Tokens as Securities Certificates</h3>
+            <p style={{ marginLeft: `5%`, marginTop: `1%`, marginBottom: '1%' }}>Tokens on public, permissionless
               blockchain networks function as transferable instruments
               ('certificates') representing traditional and decentralized securities.</p>
-            <ul style={{ marginLeft: `40px`, marginBottom: `5px` }}>
+            <ul style={{ marginLeft: `5%`, marginBottom: `1%` }}>
               <li style={{ color: `#a0ffe3` }}><a href="https://gabrielshapiro.wordpress.com/2018/10/28/2/">Tokenizing
                 Corporate Capital Stock: Motivations and Potential Implementations</a></li>
               <li style={{ color: `#a0ffe3` }}><a href="https://www.wyoleg.gov/Legislation/2019/HB0185">Amendments to
@@ -97,15 +99,18 @@ const Research = () => {
             borderColor: `#ff2a6d`,
             borderStyle: `solid`,
             borderWidth: `1px`,
-            margin: `40px`,
-            marginRight: `150px`,
-            padding: `10px`,
+            margin: `1%`,
+            /*marginRight: `15%`,*/
+            padding: `2%`,
+            minWidth: `100%`,
           }}>
-            <h3 style={{ color: `#1ec503`, marginBottom: `5px` }}>Qualified Code Deference for Legal Agreements</h3>
-            -Smart contracts deployed on public blockchain networks should be combined with
-            natural-language legal contracts under a synergistic "qualified code deference" methodology. This
-            will enable parties to agree to abide by the results of smart contracts except in unusual circumstances
-            <ul style={{ marginLeft: `40px`, marginBottom: `5px` }}>
+            <h3 style={{ color: `#1ec503`, marginBottom: `1%` }}>Qualified Code Deference for Legal Agreements</h3>
+            <p style={{ marginLeft: `5%`, marginTop: `1%`, marginBottom: '1%' }}>Smart contracts deployed on public
+              blockchain networks should be combined with
+              natural-language legal contracts under a synergistic "qualified code deference" methodology. This
+              will enable parties to agree to abide by the results of smart contracts except in unusual
+              circumstances</p>
+            <ul style={{ marginLeft: `5%`, marginBottom: `1%` }}>
               <li style={{ color: `#a0ffe3` }}><a
                 href="https://github.com/metacartel/MCV/blob/master/MCV-Whitepaper.md">MetaCartel
                 Ventures Whitepaper</a></li>
@@ -130,29 +135,23 @@ const Research = () => {
             borderColor: `#ff2a6d`,
             borderStyle: `solid`,
             borderWidth: `1px`,
-            margin: `40px`,
-            marginRight: `150px`,
-            padding: `10px`,
+            margin: `1%`,
+            /*marginRight: `15%`,*/
+            padding: `2%`,
+            minWidth: `100%`,
           }}>
-            <h3 style={{ color: `#1ec503`, marginBottom: `5px` }}>Blockchain Governance</h3>
-            <p style={{ marginLeft: `10px`, marginTop: `5px`, marginBottom: '5px' }}>Blockchain governance is best
+            <h3 style={{ color: `#1ec503`, marginBottom: `1%` }}>Blockchain Governance</h3>
+            <p style={{ marginLeft: `5%`, marginTop: `1%`, marginBottom: '1%' }}>Blockchain governance is best
               understood through the lens of <a
                 href="https://twitter.com/nickszabo4/status/1009996445280169985?lang=en">"Szabo's Governance
-                Trilemma"</a>.
-              According to Nick Szabo, blockchain governance generally takes one of the following three forms:
-              <ol style={{ marginLeft: `40px`, marginBottom: `5px` }}>
-                <li>ruthlessly minimized</li>
-                <li>lord of the flies</li>
-                <li>lawyers</li>
-              </ol>
-              Each horn of the trilemma has pros and cons. Ruthlessly minimized governance, sometimes described as
+                Trilemma"</a>. According to Szabo, blockchain governance generally takes one of three forms--'ruthlessly
+              minimized,' 'lord of the flies' or 'lawyers'. Ruthlessly minimized governance, sometimes described as
               following "Szabo's Law", is the most robust against certain forms of social capture. However, when
               minimized governance is not desired or possible, legalistic governance is
               preferable to lord-of-the-flies governance. If a network will be subject to frequent hardforks
               which adversely affect minorities, due process is required and legalistic governance becomes
-              particularly important.
-            </p>
-            <ul style={{ marginLeft: `40px`, marginBottom: `5px` }}>
+              particularly important.</p>
+            <ul style={{ marginLeft: `5%`, marginBottom: `1%` }}>
               <li style={{ color: `#a0ffe3` }}>
                 <a
                   href="https://medium.com/coinmonks/in-defense-of-szabos-law-for-a-mostly-non-legal-crypto-system-8f1ce2b364a6">In
@@ -176,13 +175,15 @@ const Research = () => {
             borderColor: `#ff2a6d`,
             borderStyle: `solid`,
             borderWidth: `1px`,
-            margin: `40px`,
-            marginRight: `150px`,
-            padding: `10px`,
+            margin: `1%`,
+            /*marginRight: `15%`,*/
+            padding: `2%`,
+            minWidth: `100%`,
           }}>
-            <h3 style={{ color: `#1ec503`, marginBottom: `5px` }}>Podcast & Event Appearances</h3>
-            -I have made appearances at various events and on podcasts.
-            <ul style={{ marginLeft: `40px`, marginBottom: `5px` }}>
+            <h3 style={{ color: `#1ec503`, marginBottom: `1%` }}>Podcast & Event Appearances</h3>
+            <p style={{ marginLeft: `5%`, marginTop: `1%`, marginBottom: '1%' }}> I have made appearances at various
+              events and on podcasts.</p>
+            <ul style={{ marginLeft: `5%`, marginBottom: `1%` }}>
               <li style={{ color: `#a0ffe3` }}>
                 <a href="https://www.youtube.com/watch?v=S-U38LIslVE">Epicenter #328: Gabriel Shapiro - A Philosophy of
                   Securities Laws for Tokenized Networks</a></li>
